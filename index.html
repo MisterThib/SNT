@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ESCAPETHIB🔐</title>
+    <link rel="shortcut icon" href="thib.ico" />
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        img{
+            position: absolute;
+            width: auto;
+            height: 100vh;
+            animation-name: hide;
+            animation-duration: 35s;
+        }
+        .autour{
+            animation-name: phrase;
+            animation-duration: 35s;
+            background-color: rgb(102, 102, 102);
+            display: flex;
+            justify-content: center;
+        }
+        @keyframes phrase{
+            0%{background-color: black;}
+            75%{background-color: black;}
+            100%{background-color: rgb(102, 102, 102);}
+        }
+        @keyframes hide {
+            0%{opacity: 0%;}
+            99%{opacity: 0%;}
+            100%{opacity: 100%;}
+        }
+        @media (max-width:500px){
+            *{
+            background-color: rgb(102, 102, 102);
+            content:"<p>😁</p>";
+            text-align: center;
+            text-size-adjust: 20vw;
+            color: white;
+        }
+        img{
+            width: 0%;
+            height: 0%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="autour"><img src="msg.gif"></div>
+</body>
+</html>
